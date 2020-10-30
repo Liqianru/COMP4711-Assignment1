@@ -53,18 +53,18 @@ class Places {
             'feed' =>'Herbivores' ,
             'image' => 'Begonia dwarf rabbit.jpg',
             'list' => 'lagomorpha',
-             'size' =>'The dwarf Begonia rabbit is petite, with ears no longer than 7cm and weight generally less than 1.36kg.' ,
-             'country' => 'Germany, the United States, France',
-        ],
-         '6' => [
+            'size' =>'The standard gingira rabbit has a short body, a flat head, upright ears and a length of no more than 12cm.' ,
+             'country' =>'The United States' ,
+            ],
+        '6' => [
             'id' => 6,
             'name' => 'The dodgers rabbit',
-             'feed' =>' Herbivores',
+            'feed' =>'Herbivores' ,
             'image' => 'The dodgers rabbit.jpg',
-             'list' => 'lagomorpha',
-             'size' =>'It is a petite breed of medium sized rabbit with a standard weight of 3.5 to 5.5 pounds.' ,
-             'country' => 'In the Netherlands',
-        ],
+            'list' => 'lagomorpha',
+            'size' =>'It is a petite breed of medium sized rabbit with a standard weight of 3.5 to 5.5 pounds.' ,
+             'country' =>'In the Netherlands' ,
+            ],
     ];
 
     public function findAll() {
